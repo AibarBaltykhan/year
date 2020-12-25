@@ -42,19 +42,19 @@ function setBgGreet() {
   if (hour > 4 && hour < 12) {
     // Morning
     document.body.style.backgroundImage =
-      "url('./assets/фото/6.jpg')";
+      "url('./assets/фото/8.jpg')";
     greeting.textContent = 'Доброе утро, жаным!';
-    document.body.style.color = 'Goldenrod';
+    document.body.style.color = 'white';
   } else if (hour < 20) {
     // Afternoon
     document.body.style.backgroundImage =
-      "url('./assets/фото/3.jpg')";
+      "url('./assets/фото/10.jpg')";
     greeting.textContent = 'Каждый день с тобой - прекрасный!';
-    document.body.style.color = 'SpringGreen';
+    document.body.style.color = 'white';
   } else {
     // Evening
     document.body.style.backgroundImage =
-      "url('./assets/фото/4.jpg')";
+      "url('./assets/фото/7.jpg')";
     greeting.textContent = 'Люблю тебя!';
     document.body.style.color = 'white';
   }
